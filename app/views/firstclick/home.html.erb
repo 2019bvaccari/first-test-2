@@ -1,0 +1,23 @@
+<h1> Hello App </h1>
+<p> bootstrap <p>
+
+<div class='container-fluid home-background'> 
+	<h1> My web page </h1>
+	<p> Contains stuff </p>
+</div>
+
+<div class='row'>
+	<div class='col-lg-4'>
+		<p> Brain 1 </p>
+		<img src= <%=@brain_rando%> height = "400" width = "450">
+	</div>
+	<div class='col-lg-4'>
+		<p> Brain 2 </p>
+		<img src= <%=@brain_rando2%> height = "400" width = "450">
+	</div>
+	<div class='col-lg-4'>
+		<p> Brain 3 </p>
+		<img src= <%=@brain_rando3%> height = "400" width = "450">
+</div>
+
+<center><%= link_to "Cool Stuff", media_path, class: "btn btn-lg btn-primary"%></center>
